@@ -7,7 +7,7 @@ import { COPY_Fail, COPY_SUCCESS } from './message';
 
 const App = () => {
   const [password, setPassword] = useState("")
-  const [passwordLength, setPasswordLength] = useState(26)
+  const [passwordLength, setPasswordLength] = useState(25)
   const [includeUpperCase, setIncludeUpperCase] = useState(false)
   const [includeLowerCase, setIncludeLowerCase] = useState(false)
   const [includeNumbers, setIncludeNumbers] = useState(false)
